@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>素问俱乐部</title>
+  <title>Xcode7创建hpp头文件重新改为.h文件的方法 | 素问俱乐部</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Xcode7创建hpp头文件重新改为.h文件的方法使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。1/Applications/Xcode.app/Contents/Developer/Libr">
+  <meta name="description" content="使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。1/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\">
 <meta property="og:type" content="article">
-<meta property="og:title" content="素问俱乐部">
+<meta property="og:title" content="Xcode7创建hpp头文件重新改为.h文件的方法">
 <meta property="og:url" content="http://suwenclub.github.io/2016/04/18/Xcode7创建hpp头文件重新改为.h文件的方法/index.html">
 <meta property="og:site_name" content="素问俱乐部">
-<meta property="og:description" content="Xcode7创建hpp头文件重新改为.h文件的方法使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。1/Applications/Xcode.app/Contents/Developer/Libr">
-<meta property="og:updated_time" content="2016-04-18T08:45:24.000Z">
+<meta property="og:description" content="使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。1/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\">
+<meta property="og:updated_time" content="2016-04-18T08:54:17.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="素问俱乐部">
-<meta name="twitter:description" content="Xcode7创建hpp头文件重新改为.h文件的方法使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。1/Applications/Xcode.app/Contents/Developer/Libr">
+<meta name="twitter:title" content="Xcode7创建hpp头文件重新改为.h文件的方法">
+<meta name="twitter:description" content="使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。1/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\">
   
     <link rel="alternative" href="/atom.xml" title="素问俱乐部" type="application/atom+xml">
   
@@ -192,10 +192,27 @@
       <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Xcode7创建hpp头文件重新改为.h文件的方法
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<h2 id="Xcode7创建hpp头文件重新改为-h文件的方法"><a href="#Xcode7创建hpp头文件重新改为-h文件的方法" class="headerlink" title="Xcode7创建hpp头文件重新改为.h文件的方法"></a>Xcode7创建hpp头文件重新改为.h文件的方法</h2><p>使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/Source/C++\ File.xctemplate/WithHeader</span><br></pre></td></tr></table></figure></p>
+        <p>使用新的Xcode7继续开发cocos2d-x程序的时候发现在新建C++的类头文件的扩展名变成了hpp。由于cocos2d-x程序在安卓编译的时候使用MK文件，其中对扩展名有要求，所以为了降低麻烦想继续使用.h扩展名。可以修改下面路径里的模板文件实现。<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/Source/C++\ File.xctemplate/WithHeader</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -209,7 +226,7 @@
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          (no title)
+          iOS9适配 之 关于info.plist 第三方登录 添加URL Schemes白名单
         
       </div>
     </a>
@@ -246,7 +263,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="Xcode7创建hpp头文件重新改为.h文件的方法" data-title="" data-url="http://suwenclub.github.io/2016/04/18/Xcode7创建hpp头文件重新改为.h文件的方法/"></div>
+	<div class="ds-thread" data-thread-key="Xcode7创建hpp头文件重新改为.h文件的方法" data-title="Xcode7创建hpp头文件重新改为.h文件的方法" data-url="http://suwenclub.github.io/2016/04/18/Xcode7创建hpp头文件重新改为.h文件的方法/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
